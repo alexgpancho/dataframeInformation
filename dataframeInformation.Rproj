@@ -18,3 +18,9 @@ StripTrailingWhitespace: Yes
 BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
+
+PythonType: system
+PythonVersion: 3.9.7
+PythonPath: /usr/bin/python3.9
+
+SpellingDictionary: es_ES

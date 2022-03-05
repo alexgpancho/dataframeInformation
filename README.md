@@ -1,4 +1,4 @@
- Package: dataframeInformation
+Package: dataframeInformation
 Type: Package
 Title: Dataframe Information
 Version: 0.1.0

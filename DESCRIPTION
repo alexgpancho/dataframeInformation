@@ -1,11 +1,11 @@
 Package: dataframeInformation
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Dataframe Information
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Alexis Guananga
+Maintainer: Alexis Guananga <alexgpancho@hotmail.com>
+Description: a) Count how many variables are numeric. b) Count how many variables are factors. c) How many records the dataset has. d) The above results should be stored in a new dataframe and returned to the user.
 Encoding: UTF-8
 LazyData: true
+License: GPL (>= 2)
+Depends: R (>= 3.1.0)
