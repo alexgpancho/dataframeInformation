@@ -1,18 +1,20 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+#Package datafarmeInformation
 
-hello <- function() {
-  print("Hello, world!")
-}
+#TEST
+library(reader)
+library(tidyverse)
+library(missForest)
+library(FSelector)
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(ggpubr)
+library(caTools)
+library(glmnet)
+library(cvms)
+library(tibble)
+rm(list = ls())
+#1.- Carga los datos.
+data_caso<- as.data.frame(read.csv('https://archive.ics.uci.edu/ml/machine-learning-databases/credit-screening/crx.data', header = FALSE))
+summary(data_caso)
+
