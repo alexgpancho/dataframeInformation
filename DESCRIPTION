@@ -8,4 +8,4 @@ Description: a) Count how many variables are numeric. b) Count how many variable
 Encoding: UTF-8
 LazyData: true
 License: GPL (>= 2)
-Depends: R (>= 3.1.0)
+
